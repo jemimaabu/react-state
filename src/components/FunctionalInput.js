@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const InputA = () => {
+export const FunctionalInput = () => {
   const [name, setName] = useState("");
   const handleInput = (e) => {
     setName(e.target.value);

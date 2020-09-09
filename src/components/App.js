@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../styles/App.css';
-import { InputA } from './InputA';
-import InputB from './InputB'
+import { HooksInput } from './HooksInput';
+// import InputB from './ClassInput'
 
 class App extends React.Component {
   constructor(props) {
@@ -13,8 +13,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
-        <InputA />
-        <InputB />
+        <HooksInput />
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class InputB extends React.Component {
+class ClassInput extends React.Component {
   constructor() {
     super();
     this.state = { name: "" };
@@ -22,4 +22,4 @@ class InputB extends React.Component {
   }
 }
 
-export default InputB;
+export default ClassInput;
