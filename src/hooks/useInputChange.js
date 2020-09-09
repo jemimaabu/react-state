@@ -4,7 +4,7 @@ export const useInputChange = () => {
   const [name, setName] = useState('');
 
   const onChange = e => {
-    setName(e.target.value)
+    setName(e.target ? e.target.value : e)
   }
 
   return [name, onChange]
